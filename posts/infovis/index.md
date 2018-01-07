@@ -6,7 +6,7 @@ modified:
 excerpt: ""
 ---
 
-![image](file://E:/wp。/2333/WWWWp.github.io/images/keshihua~.png)
+![image](file://E:\wp。\2333\WWWWp.github.io\images\keshihua~.png)
 
 <div class="tiles">
 {% for post in site.categories.infovis %}
