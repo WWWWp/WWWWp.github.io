@@ -4,8 +4,6 @@ title: "可视化"
 date: 
 modified:
 excerpt: ""
-tags: []
-image: 
 ---
 
 <div class='tableauPlaceholder' id='viz1515301110742' style='position: relative'>
