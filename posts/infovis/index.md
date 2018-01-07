@@ -6,7 +6,7 @@ modified:
 excerpt: ""
 ---
 
-![image](https://github.com/WWWWp/WWWWp.github.io/blob/master/images/keshihua~.png)
+![image](https://github.com/WWWWp/WWWWp.github.io/blob/master/images/keshihua~.png?raw=true)
 
 <div class="tiles">
 {% for post in site.categories.infovis %}
