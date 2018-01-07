@@ -1,12 +1,12 @@
 # Site navigation links
 
  - title: 信息可视化作品集
-   url: /infovis/
+   url: /posts/infovis/
    excerpt: 可视化 
    image: navigation 1.gif
  
  - title: 网页设计作品集
-   url: /portfolio/
+   url: /posts/portfolio/
    excerpt: 绿色的东西
    image: navigation 2.jpg
 
