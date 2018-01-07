@@ -9,6 +9,12 @@
    url: /posts/portfolio/
    excerpt: 绿色的东西
    image: navigation 2.jpg
+   
+ - title: 网页设计作品集
+   url: /posts/rwd/
+   excerpt: 绿色的东西
+   image: navigation 3.gif
+
 
  - title: 关于我
    url: /mine/
