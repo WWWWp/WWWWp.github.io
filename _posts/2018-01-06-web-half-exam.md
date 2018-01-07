@@ -3,8 +3,8 @@ layout: default
 title: "挥动的安卓"
 categories:  portfolio
 image:
-  teaser: keshihua1.jpg
-  feature: keshihua1.jpg
+  teaser: navigation 2.jpg
+  feature: navigation 2.jpg
 ---
 <body>
 	<div class="android">
