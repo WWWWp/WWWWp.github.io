@@ -3,10 +3,9 @@ layout: default
 title: "ÍøÒ³Éè¼Æ£¨ÆÚÄ©£©"
 categories:  portfolio
 image:
-    teaser: keshihua1.jpg
-    feature: keshihua1.jpg
+  teaser: keshihua1.jpg
+  feature: keshihua1.jpg
 ---
-
 <body>
 	<div class="android">
 		<div class="head">
