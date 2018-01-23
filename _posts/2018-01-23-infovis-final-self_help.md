@@ -26,7 +26,7 @@ image:
 - 搜索的到数据筛选前共有3437条，筛选后共有2711条；前后差别较大的原因是之保留了购物类型与体育类型。
 
 ### 数据分析
-[点击跳转网页](https://public.tableau.com/profile/.16607453#!/vizhome/_16450/1_2?publish=yes)
+[![image](https://github.com/WWWWp/WWWWp.github.io/blob/master/images/ksh.jpg)](https://public.tableau.com/profile/.16607453#!/vizhome/_16450/1_2?publish=yes)
 
 ### 结论
 - 四大品牌中，YONEX专卖店分布最广且数量最多，而LI-NING作为我国的国产品牌，虽然不是最少但却比不过YONEX，很大的原因是在于YONEX是单一生产球拍的 品牌，而LI-NING是多元生产各种运动用品的品牌。
