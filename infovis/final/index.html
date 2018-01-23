@@ -1,30 +1,107 @@
-<body>
+ <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 
-	<div class='tableauPlaceholder' id='viz1516690908159' style='position: relative'>
-		<noscript>
-			<a href='#'><img alt='仪表板 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;H2&#47;H23Y2XZ3M&#47;1_rss.png' style='border: none' /></a>
-		</noscript>
-		<object class='tableauViz'  style='display:none;'>
-			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-			<param name='embed_code_version' value='3' />
-			<param name='path' value='shared&#47;H23Y2XZ3M' />
-			<param name='toolbar' value='yes' />
-			<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;H2&#47;H23Y2XZ3M&#47;1.png' />
-			<param name='animate_transition' value='yes' />
-			<param name='display_static_image' value='yes' />
-			<param name='display_spinner' value='yes' />
-			<param name='display_overlay' value='yes' />
-			<param name='display_count' value='yes' />
-			<param name='filter' value='publish=yes' />
-		</object>
+	<div class="MenuWrap">
+		<a target="_blank" href="http://mail.qq.com" class="LastItem">Contact Us</a>
 	</div>
+	
+<h1>高德地图——期末作业<br/>四大电脑品牌分析<br/><br/>Let's analyze data together!</h1>
+		<div class="tab_container">
+			<input id="tab1" type="radio" name="tabs" checked>
+			<label for="tab1"><i class="fa fa-check-square"></i><span>专案课题摘要</span></label>
 
-</body>
-            <script type='text/javascript'>
-				var divElement = document.getElementById('viz1516690908159');
-				var vizElement = divElement.getElementsByTagName('object')[0];
-				vizElement.style.width='1000px';vizElement.style.height='827px';
-				var scriptElement = document.createElement('script');
-				scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-				vizElement.parentNode.insertBefore(scriptElement, vizElement);
-            </script>
+			<input id="tab2" type="radio" name="tabs">
+			<label for="tab2"><i class="fa fa-line-chart"></i><span>地图：全国分布情况</span></label>
+
+			<input id="tab3" type="radio" name="tabs">
+			<label for="tab3"><i class="fa fa-graduation-cap"></i><span>树状图：各省电脑店铺数量</span></label>
+
+			<input id="tab4" type="radio" name="tabs">
+			<label for="tab4"><i class="fa fa-male"></i><span>堆叠条：四大电脑品牌各省店铺数量排序</span></label>
+
+			<input id="tab5" type="radio" name="tabs">
+			<label for="tab5"><i class="fa fa-heart"></i><span>文本表：各市区店铺数量分析</span></label>
+			
+			<input id="tab6" type="radio" name="tabs">
+			<label for="tab6"><i class="fa fa-child"></i><span>饼图：四大电脑品牌店铺数量占比</span></label>
+
+			<input id="tab7" type="radio" name="tabs">
+			<label for="tab7"><i class="fa fa-plus-square"></i><span>数据来源</span></label>
+			
+			<input id="tab8" type="radio" name="tabs">
+			<label for="tab8"><i class="fa fa-plus-square"></i><span>数据筛选处理</span></label>
+
+			
+			<section id="content1" class="tab-content">
+				<h3>简述</h3>
+			<p>计算机（computer）俗称电脑，是一种用于高速计算的电子计算机器，可以进行数值计算，又可以进行逻辑计算，还具有存储记忆功能。是能够按照程序运行，自动、高速处理海量数据的现代化智能电子设备。</p>
+			<p>计算机的应用在中国越来越普遍，改革开放以后，中国计算机用户的数量不断攀升，应用水平不断提高，特别是互联网、通信、多媒体等领域的应用取得了不错的成绩。1996年至2009 年，计算机用户数量从原来的630万增长至6710 万台，联网计算机台数由原来的2.9万台上升至5940万台。互联网用户已经达到3.16 亿，无线互联网有6.7 亿移动用户，其中手机上网用户达1.17 亿，为全球第一位。</p>
+			<p>电脑的发展的确快很多，那么它目前在中国的发展现状是怎么样的呢？下面我就用高德地图获取的数据进行分析。</p>
+			<p>下表为全局分析仪表盘（已实现联动效果）</p>
+			<iframe src="https://public.tableau.com/views/_18774/3_1?:embed=y&:display_count=yes&publish=yes"></iframe><br></br>
+			</section>
+
+			<section id="content2" class="tab-content">
+			<p>通过联想/惠普/华硕/戴尔的全国分布情况地图我们可以获知大部分电脑店的选址都是在中东部地区，环渤海地区/长三角地区/四川盆地且数量尤其多，这说明了这些地区的电脑需求量很大，在这些地区的店铺可能已经进入饱和状态，不需要再在这些地区开店，而通过提高其服务质量等来提升竞争力是一个不错的选择。</p>
+			<p>西部的电脑店面量则比东部的少很多，最明显的是华硕，在西部地区一家也没有。这数据说明西部地区的电脑需求量不高。虽然不高，但也说明了西部地区有着很大的发展空间，这些电脑品牌的选址可以考虑一下在西部地区开店，尤其是华硕品牌。</p>
+		      	<iframe src="https://public.tableau.com/views/_18774/sheet0?:embed=y&:display_count=yes&publish=yes"></iframe><br></br>
+			</section>
+
+			<section id="content3" class="tab-content">
+			<p>由此树状图我们可以知道河南省的总电脑店面最多，比河北省和广东地区多出了差不多三分之一，其中缘由值得考究。</p>
+			<p>而通过筛选器筛选，我们可以看到戴尔在河南省开的店面比较多，华硕在广东省开的店面比较多，惠普在江苏省开的店面比较多，联想电脑在山东省开的店面比较多。</p>
+			<p>通过这张树状图我们可以获知这四个电脑品牌在各省的开设的店面数量，从而分析其在各省受欢迎的程度，并规划其未来发展。</p>
+				<iframe src="https://public.tableau.com/views/_18774/sheet1?:embed=y&:display_count=yes&publish=yes"></iframe><br></br>
+			</section>
+
+			<section id="content4" class="tab-content">
+			<p>由此条形图我们可以知道河南省，经济不算最好，但是发展的不错，店铺数量最多，且戴尔电脑占比最大。这说明了戴尔电脑在河南省的发展最好，且是当地"地头蛇"。</p>
+			<p>港澳及西部边远地区的电脑店铺最少，西部边远地区之所以少可能是因为这些地区发展较差，没市场。我们可以推敲这些地区的电子网络市场发展水平较差，电脑普及率也大大低于全国平均水平。</p>
+			<p>而港澳地区是中国发展最好的地区之一，这里的电脑店铺数量那么少，极有可能是因为当地比较国际化，使用的电脑区别于我国内陆地区；又或者是当地店铺名使用的是英文，所以没搜索出来；第三个原因可能是高德地图在港澳地区的地图版面尚不完善。具体原因为何有待更多的数据来进行分析。</p>
+				<iframe src="https://public.tableau.com/views/_18774/-?:embed=y&:display_count=yes&publish=yes"></iframe>						      	
+			</section>
+
+			<section id="content5" class="tab-content">
+			<p>这张图表按 电脑品牌 - 省 - 市 - 关键词 分成区块，且对5个电脑店铺以上的地区进行标亮</p>
+			<p>由这张图表我们可以分析这四大电脑品牌在各个区的发展情况，</p>
+			<p>如广东省的分布情况：深圳/广州/东莞/惠州/中山/汕头 这6个城市的华硕店铺数量都在5个及以上，最多的是深圳，共27个。</p>
+			<p>我的电脑也是华硕品牌的，我家这边，也就是佛山，只有4家店。专卖店较少呢 >.<!!  </p>
+		      	<iframe src="https://public.tableau.com/views/_18774/5?:embed=y&:display_count=yes&publish=yes"></iframe><br></br>
+			</section>
+			
+			<section id="content6" class="tab-content">
+			<p>四大电脑品牌商铺占比相近，这说明了这四家电脑公司发展情况相似，中国电脑市场没有一家独大，垄断的情况，发展较为良好。</p>
+		      	<iframe src="https://public.tableau.com/shared/WB6FHCDNS?:display_count=yes"></iframe>
+			</section>
+			
+			<section id="content7" class="tab-content">
+			<p>POI数据来自高德地图搜索服务API。</p>
+			<p>本次分析使用全国范围内截至2018年01月05号的数据，共3084条。</p>
+			<p>每条POI数据包括经度、纬度、名称、地址、类型、行政区、行政编码和联系电话等属性。</p>
+			<p>按照类型统计，POI数据共归为10大类，如购物服务、公司企业、生活服务等。每一大类下又包括多级小类。以餐饮服务类为例，该一级类别下又包括公司、家电电子卖场和购物相关场所等二级类别。</p>			
+			</section>		
+			
+			<section id="content8" class="tab-content">
+			<p>原始POI数据分类较多，且每一大类下包括多级小类，类型之间存在重复交叉现象（详见<a href="http://lbs.amap.com/api/webservice/download" target="_blank">高德地图POI分类编码</a>）</p>
+			<p>且有些不是本次分析所需的数据，如：华硕宾馆、华硕五金、华硕网咖等</p>
+			<p>因此我对原始数据进行了排除筛选。</p>
+			<p>筛选前共 3084 条数据；筛选后共 3013 条数据。</p>
+			</section>	
+			
+		</div>
+
+<p class="no_wrap">
+<a href="https://cherrylichan.github.io/" target="_blank"><i class="fa fa-github"></i><a/>
+</p>
+<p class="name">
+黎婵高德地图期末作品
+</p>
+
+<div id="time1">
+            id is hang_2
+</div>
+<script>            
+setInterval("document.getElementById('time1').innerHTML = new Date().toLocaleString();", 1000);
+</script>
